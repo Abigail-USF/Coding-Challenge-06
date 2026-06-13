@@ -66,3 +66,4 @@ company.addEmployee(manager2);
 
 company.listEmployees();
 
+// Step 7: Finalize the Employee and Manager classes

@@ -32,11 +32,6 @@ const employee2 = new Employee("Sandy Cheeks", "Human Resources");
 const manager1 = new Manager("Patrick Star", "Marketing", 8);
 const manager2 = new Manager("Mr. Krabs", "Finance", 15);
 
-console.log(employee1.describe());
-console.log(employee2.describe());
-console.log(manager1.describe());
-console.log(manager2.describe());
-
 // Step 5:
 
 class Company {
@@ -66,4 +61,3 @@ company.addEmployee(manager2);
 
 company.listEmployees();
 
-// Step 7: Finalize the Employee and Manager classes
